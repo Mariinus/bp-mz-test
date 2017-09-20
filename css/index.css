@@ -6,16 +6,16 @@
 
 @font-face {
     font-family: 'akkurat';
-    src: url('bp-mz-test/css/fonts/AkkuratPro-Light.eot');
-    src: url('bp-mz-test/css/fonts/AkkuratPro-Light.eot?#iefix') format('embedded-opentype'), url('bp-mz-test/css/fonts/AkkuratPro-Light.woff2') format('woff2'), url('bp-mz-test/css/fonts/AkkuratPro-Light.woff') format('woff'), url('bp-mz-test/css/fonts/AkkuratPro-Light.ttf') format('truetype'), url('bp-mz-test/css/fonts/AkkuratPro-Light.svg#AkkuratPro-Light') format('svg');
+    src: url('/bp-mz-test/css/fonts/AkkuratPro-Light.eot');
+    src: url('/bp-mz-test/css/fonts/AkkuratPro-Light.eot?#iefix') format('embedded-opentype'), url('/bp-mz-test/css/fonts/AkkuratPro-Light.woff2') format('woff2'), url('/bp-mz-test/css/fonts/AkkuratPro-Light.woff') format('woff'), url('/bp-mz-test/css/fonts/AkkuratPro-Light.ttf') format('truetype'), url('/bp-mz-test/css/fonts/AkkuratPro-Light.svg#AkkuratPro-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'domaine';
-    src: url('bp-mz-test/css/fonts/DomaineDispBlack.eot');
-    src: url('bp-mz-test/css/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), url('bp-mz-test/css/fonts/DomaineDispBlack.woff2') format('woff2'), url('bp-mz-test/css/fonts/DomaineDispBlack.woff') format('woff'), url('bp-mz-test/css/fonts/DomaineDispBlack.ttf') format('truetype'), url('bp-mz-test/css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
+    src: url('/bp-mz-test/css/fonts/DomaineDispBlack.eot');
+    src: url('/bp-mz-test/css/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), url('/bp-mz-test/css/fonts/DomaineDispBlack.woff2') format('woff2'), url('/bp-mz-test/css/fonts/DomaineDispBlack.woff') format('woff'), url('/bp-mz-test/css/fonts/DomaineDispBlack.ttf') format('truetype'), url('/bp-mz-test/css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
     font-weight: 900;
     font-style: normal;
 }
