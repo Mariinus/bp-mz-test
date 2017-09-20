@@ -61,7 +61,7 @@ button:focus {
 }
 
 .marazagologo {
-	background: url(/img/marazago_logo.svg) no-repeat top center;
+	background: url(img/marazago_logo.svg) no-repeat top center;
 	background-size: contain;
 	cursor: pointer;
 	height: 16vw;
@@ -134,7 +134,7 @@ button:focus {
     margin-left: 48vw;
 	bottom: 0;
     transition-duration: 0.5s;
-	background-image: url(/img/marazargo-arrow-down.svg);
+	background-image: url(img/marazargo-arrow-down.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -463,7 +463,7 @@ ul{
 }
 
 #ourapproach {
-	background-image: url(/img/marazago_approach.svg);
+	background-image: url(img/marazago_approach.svg);
 	height: 100vh;
 	width: 2vw;
 	background-repeat: no-repeat;
@@ -575,7 +575,7 @@ nav#offcanvas-menuleft {
 }
 
 #why-us {
-	background-image: url(/img/marazago_whyus.svg);
+	background-image: url(img/marazago_whyus.svg);
 	height: 100vh;
 	width: 2vw;
 	background-repeat: no-repeat;
@@ -708,7 +708,7 @@ nav#offcanvas-menuright {
 	z-index: 610;
 	height: 4vw;
 	width: 4vw;
-	background-image: url(/img/marazago_close.svg);
+	background-image: url(img/marazago_close.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	border: 1px solid transparent;
@@ -750,7 +750,7 @@ nav#offcanvas-menuright {
 	width: 17vw;
 	height: 17vw;
 	margin-left: 41.5vw;
-	background:url(/img/mz-portrait.png);
+	background:url(img/mz-portrait.png);
     background-repeat: round;
     background-position: initial;
 	border-radius: 100%;
@@ -808,7 +808,7 @@ nav#offcanvas-menuright {
 	width: 2.5vw;
 	height: 2.5vw;
 	bottom: 0;
-	background-image: url(/img/marazago-pinterest.svg);
+	background-image: url(img/marazago-pinterest.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	float: left;
@@ -823,7 +823,7 @@ nav#offcanvas-menuright {
 	width: 2.5vw;
 	height: 2.5vw;
 	bottom: 0;
-	background-image: url(/img/marazago-fb.svg);
+	background-image: url(img/marazago-fb.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	float: left;
@@ -839,7 +839,7 @@ nav#offcanvas-menuright {
 	width: 2.5vw;
 	height: 2.5vw;
 	bottom: 0;
-	background-image: url(/img/marazago-insta.svg);
+	background-image: url(img/marazago-insta.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	float: right;
@@ -852,7 +852,7 @@ nav#offcanvas-menuright {
 /* phone website */
 @media(max-width: 600px) {
 .marazagologo {
-	background: url(/img/marazago_logomob.svg) no-repeat top center;
+	background: url(img/marazago_logomob.svg) no-repeat top center;
 	height: 40vw;
 	width: 70vw;
 	margin-left: 15vw;
@@ -863,7 +863,7 @@ nav#offcanvas-menuright {
 	height: 10vw;
     margin-top: 7vw;
     margin-left: 45vw;
-	background-image: url(/img/marazargo-arrow-down.svg);
+	background-image: url(img/marazargo-arrow-down.svg);
 }
 
 #moreinfo:before{
@@ -932,7 +932,7 @@ h1{
 
 #mainlogo.marazagologo {
 	margin-top: 8.5vh;
-    background: url(/img/marazago_logomob_z.svg) no-repeat top center;
+    background: url(img/marazago_logomob_z.svg) no-repeat top center;
 	width: 44vw;
     margin-left: 28vw;
     height: 18vw;
@@ -986,7 +986,7 @@ z-index:110 !important;
 }
 
 #ourapproach {
-    background-image: url(/img/marazago_approach.svg);
+    background-image: url(img/marazago_approach.svg);
     width: 6.5vw;
     margin-left: 6.8vw;
 }
@@ -1021,7 +1021,7 @@ input[type="checkbox"]#toggleboxleft:checked~div#banner-left {
 }
 
 #why-us {
-	background-image: url(/img/marazago_whyus.svg);
+	background-image: url(img/marazago_whyus.svg);
 	height: 100vh;
 	width: 6.5vw;
 	background-repeat: no-repeat;
