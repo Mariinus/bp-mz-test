@@ -1,59 +1,51 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 @font-face {
-  font-family: 'akkurat';
-	src: url('css/fonts/AkkuratPro-Light.eot');
-	src: url('css/fonts/AkkuratPro-Light.eot?#iefix') format('embedded-opentype'),
-		url('css/fonts/AkkuratPro-Light.woff2') format('woff2'),
-		url('css/fonts/AkkuratPro-Light.woff') format('woff'),
-		url('css/fonts/AkkuratPro-Light.ttf') format('truetype'),
-		url('css/fonts/AkkuratPro-Light.svg#AkkuratPro-Light') format('svg');
-	font-weight: 300;
-	font-style: normal;
+    font-family: 'akkurat';
+    src: url('/css/fonts/AkkuratPro-Light.eot');
+    src: url('/css/fonts/AkkuratPro-Light.eot?#iefix') format('embedded-opentype'), url('/css/fonts/AkkuratPro-Light.woff2') format('woff2'), url('/css/fonts/AkkuratPro-Light.woff') format('woff'), url('/css/fonts/AkkuratPro-Light.ttf') format('truetype'), url('/css/fonts/AkkuratPro-Light.svg#AkkuratPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'domaine';
-	src: url('css/fonts/DomaineDispBlack.eot');
-	src: url('css/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'),
-		url('css/fonts/DomaineDispBlack.woff2') format('woff2'),
-		url('css/fonts/DomaineDispBlack.woff') format('woff'),
-		url('css/fonts/DomaineDispBlack.ttf') format('truetype'),
-		url('css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
-	font-weight: 900;
-	font-style: normal;
+    font-family: 'domaine';
+    src: url('/css/fonts/DomaineDispBlack.eot');
+    src: url('/css/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), url('/css/fonts/DomaineDispBlack.woff2') format('woff2'), url('/css/fonts/DomaineDispBlack.woff') format('woff'), url('/css/fonts/DomaineDispBlack.ttf') format('truetype'), url('/css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
 
 body {
-	font-family: 'akkurat', sans-serif;
-	min-height: 100vh;
-	color: #3f0d01;
-	background-color: #fff;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	overflow: hidden;
+    font-family: 'akkurat', sans-serif;
+    min-height: 100vh;
+    color: #3f0d01;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
 }
 
 button:focus {
-	outline: 0;
+    outline: 0;
 }
 
 
 /* SPLASHPAGE */
 
 .splash {
-	height: auto;
-	width: 100vw;
+    height: auto;
+    width: 100vw;
     z-index: 11;
 }
 
-.splash a{
+.splash a {
     font-family: 'akkurat';
-    color:#3f0d01;
+    color: #3f0d01;
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 0;
@@ -61,21 +53,22 @@ button:focus {
 }
 
 .marazagologo {
-	background: url('img/marazago_logo.svg') no-repeat top center;
-	background-size: contain;
-	cursor: pointer;
-	height: 16vw;
-	width: 50vw;
-	margin-left: 25vw;
+    background: url('/img/marazago_logo.svg') no-repeat top center;
+    background-size: contain;
+    cursor: pointer;
+    height: 16vw;
+    width: 50vw;
+    margin-left: 25vw;
 }
 
-.splash-mail, .splash-call {
+.splash-mail,
+.splash-call {
     width: 50vw;
     padding-bottom: 1vw;
-    padding-top:1vw;
+    padding-top: 1vw;
     font-family: 'akkurat';
     text-decoration: none;
-    bottom:0;
+    bottom: 0;
     text-align: center;
     font-size: 1.42vw;
     transition-duration: 0.5s;
@@ -86,71 +79,79 @@ button:focus {
     position: absolute;
     z-index: 50;
 }
-.splash-call {left:0;}
-.splash-mail {right:0;}
+
+.splash-call {
+    left: 0;
+}
+
+.splash-mail {
+    right: 0;
+}
 
 .splash-mail:hover {
     background-color: #3f0d01;
     color: #d4b4a9;
 }
+
 .splash-call:hover {
     background-color: #3f0d01;
     color: #d4b4a9;
 }
 
+
 /* BUTTON */
 
 #button {
-	background-color: #f9ebed;
-	border: none;
-	color: #3f0d01;
-	padding: 1.35vw 5vw;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 1.42vw;
-	cursor: pointer;
-	border-radius: 0.3vw;
-	transition-duration: 0.5s;
+    background-color: #f9ebed;
+    border: none;
+    color: #3f0d01;
+    padding: 1.35vw 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.42vw;
+    cursor: pointer;
+    border-radius: 0.3vw;
+    transition-duration: 0.5s;
     font-family: 'akkurat', sans-serif;
 }
 
 #button.enter {
-	margin-top: 15vh;
-	margin-bottom: 15vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 #button:hover {
-	background-color: #3f0d01;
-	color: #f9ebed;
+    background-color: #3f0d01;
+    color: #f9ebed;
 }
 
-#moreinfo{
+#moreinfo {
     position: relative;
     z-index: 50;
     width: 4vw;
-	height: 4vw;
+    height: 4vw;
     margin-top: 5vw;
     margin-left: 48vw;
-	bottom: 0;
+    bottom: 0;
     transition-duration: 0.5s;
-	background-image: url('img/marazargo-arrow-down.svg');
-	background-repeat: no-repeat;
-	background-position: center;
+    background-image: url('/img/marazargo-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#moreinfo:before{
-    position:absolute;
-    content:'';
-    top:-5vh;
-    right:-5vh;
-    left:-5vh;
-    bottom:-5vh;
-    z-index:40;
+#moreinfo:before {
+    position: absolute;
+    content: '';
+    top: -5vh;
+    right: -5vh;
+    left: -5vh;
+    bottom: -5vh;
+    z-index: 40;
 }
 
 a {
-	display: inline-block;
+    display: inline-block;
     text-decoration: none;
     color: #3f0d01;
     color: var(--color-link);
@@ -158,205 +159,207 @@ a {
     margin-bottom: 2.5vw;
 }
 
+
 /* CAROUSEL */
-.slideshow img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit:cover;
-  background-color: #f4500;
+
+.slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-color: #f4500;
 }
+
 
 /* Color schemes */
 
 .marazago {
-	--color-text: #fff;
-	--color-link: #5f5f5f;
-	--color-link-hover: #ff963b;
-	--color-enter: #fff;
-	--color-title: #fff;
-	--color-subtitle: #5f5f5f;
-	--color-menu-item: #000;
-	--color-menu-item-hover: #ff963b;
-	--color-menu-item-hover-alt: #8544da;
-	--color-content: #222325;
-	--color-content-fixed: #f5dad3;
-	--font-alt: 200 6vw/1 'Spectral', serif;
-	--color-next: #5f5f5f;
-	--color-next-hover: #8544da;
+    --color-text: #fff;
+    --color-link: #5f5f5f;
+    --color-link-hover: #ff963b;
+    --color-enter: #fff;
+    --color-title: #fff;
+    --color-subtitle: #5f5f5f;
+    --color-menu-item: #000;
+    --color-menu-item-hover: #ff963b;
+    --color-menu-item-hover-alt: #8544da;
+    --color-content: #222325;
+    --color-content-fixed: #f5dad3;
+    --font-alt: 200 6vw/1 'Spectral', serif;
+    --color-next: #5f5f5f;
+    --color-next-hover: #8544da;
 }
 
 
 /* Page Loader */
 
 .js .loading::before {
-	content: '';
-	position: fixed;
-	z-index: 10000;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #d3b4aa;
-	background: var(--color-content);
+    content: '';
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #d3b4aa;
 }
 
 .js .loading::after {
-	content: '';
-	position: fixed;
-	z-index: 10000;
-	top: 50%;
-	left: 50%;
-	width: 50px;
-	height: 50px;
-	margin: -25px 0 0 -25px;
-	pointer-events: none;
-	background: #d3b4aa;
-	background: var(--color-text);
-	border-radius: 50%;
-	animation: loaderAnim 0.5s ease infinite alternate forwards;
+    content: '';
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+    pointer-events: none;
+    background: #d3b4aa;
+    background: var(--color-text);
+    border-radius: 50%;
+    animation: loaderAnim 0.5s ease infinite alternate forwards;
 }
 
 @keyframes loaderAnim {
-	0% {
-		transform: scale3d(0.5, 0.5, 1);
-	}
-	100% {
-		transform: scale3d(1, 1, 1);
-	}
+    0% {
+        transform: scale3d(0.5, 0.5, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
 }
 
 .hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    pointer-events: none;
 }
 
 
 /* Page transitions */
 
 main {
-	height: 100vh;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 .content {
-	width: 100%;
-	height: 100vh;
-	position: relative;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
 .content--intro {
-	z-index: 100;
-	height: 200vh;
+    z-index: 100;
+    height: 200vh;
 }
 
 .content--fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: #d3b4aa;
-	/* background-image: var(--bg-img); */
-	/* can't use this as relative path until it's fixed in Chrome https://bugs.chromium.org/p/chromium/issues/detail?id=618165 */
-	background-position: 50% 50%;
-	background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d3b4aa;
+    /* background-image: var(--bg-img); */
+    /* can't use this as relative path until it's fixed in Chrome https://bugs.chromium.org/p/chromium/issues/detail?id=618165 */
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .marazago .content--fixed {
-	background-color: #f5dad3;
+    background-color: #f5dad3;
 }
 
 .content__inner {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .content--intro .content__inner {
-	background: #d3b4aa;
+    background: #d3b4aa;
     background-repeat: no-repeat;
-	background-position: center;
+    background-position: center;
 }
 
 .content h2 {
-	margin: 0;
+    margin: 0;
 }
 
 .shape-wrap {
-	position: relative;
-	z-index: 10;
-	margin: -5px 0 0 0;
-	/* Hide the gap */
+    position: relative;
+    z-index: 10;
+    margin: -5px 0 0 0;
+    /* Hide the gap */
 }
 
 .shape {
-	height: 100vh;
-	width: 100%;
-	display: block;
-	fill: #d3b4aa;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    fill: #d3b4aa;
 }
 
 .content__title {
-	font: var(--font-alt);
-	color: var(--color-title);
-	margin: 0;
-	line-height: 1;
+    font: var(--font-alt);
+    color: var(--color-title);
+    margin: 0;
+    line-height: 1;
 }
 
 .content__title--filled {
-	background: var(--color-content);
-	padding: 0.25em 0.5em;
+    background: var(--color-content);
+    padding: 0.25em 0.5em;
 }
 
 .content__title span {
-	display: inline-block;
+    display: inline-block;
 }
 
 .content__subtitle {
-	font: var(--font-alt);
-	font-size: 1.5em;
-	color: var(--color-subtitle);
-	padding: 0.5em 0 0 0;
-	margin: 0;
+    font: var(--font-alt);
+    font-size: 1.5em;
+    color: var(--color-subtitle);
+    padding: 0.5em 0 0 0;
+    margin: 0;
 }
 
 .enter,
 .explore {
-	margin: 0 0 0 0;
-	font-size: 1em;
-	letter-spacing: 3px;
-	cursor: pointer;
-	font-weight: bold;
-	white-space: pre;
-	color: var(--color-enter);
-	pointer-events: auto;
+    margin: 0 0 0 0;
+    font-size: 1em;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: pre;
+    color: var(--color-enter);
+    pointer-events: auto;
 }
 
 .enter:hover,
 .enter:focus {
-	color: var(--color-enter);
+    color: var(--color-enter);
 }
 
 .enter span {
-	display: inline-block;
+    display: inline-block;
 }
 
 
 /* MAIN PAGE */
 
-h1{
+h1 {
     font-family: 'akkurat';
     font-size: 2.5vw;
     margin-bottom: 0.5vw;
@@ -366,770 +369,741 @@ h1{
     color: #3f0d01;
 }
 
-ul{
+ul {
     list-style-type: circle;
 }
 
 #mainlogo.marazagologo {
-	margin-top: 17.5vh;
-	cursor: auto;
+    margin-top: 17.5vh;
+    cursor: auto;
     font-size: 1.42vw;
 }
 
 .main-text {
-	width: 50vw;
-	margin-left: 25vw;
-	text-align: center;
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
     line-height: 1.4;
 }
 
 .socialmedia {
-	width: 50vw;
-	height: 4vh;
-	position: fixed;
-	left: 25vw;
-	bottom: 3.1vw;
-	color: #9a7a6f;
-	font-size: 1.43vw;
+    width: 50vw;
+    height: 4vh;
+    position: fixed;
+    left: 25vw;
+    bottom: 3.1vw;
+    color: #9a7a6f;
+    font-size: 1.43vw;
 }
 
 #pinterest {
-	position: absolute;
-	width: auto;
-	height: auto;
-	left: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
 }
 
 #pinterest:hover {
-	color: #3f0d01;
-	transition-duration: 0.5s;
+    color: #3f0d01;
+    transition-duration: 0.5s;
 }
 
 #facebook {
-	position: absolute;
-	width: 10vw;
-	height: auto;
-	right: 20vw;
-	text-align: center;
+    position: absolute;
+    width: 10vw;
+    height: auto;
+    right: 20vw;
+    text-align: center;
 }
 
 #facebook:hover {
-	color: #3f0d01;
-	transition-duration: 0.5s;
+    color: #3f0d01;
+    transition-duration: 0.5s;
 }
 
 #instagram {
-	position: absolute;
-	width: auto;
-	height: auto;
-	right: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 0;
 }
 
 #instagram:hover {
-	color: #3f0d01;
-	transition-duration: 0.5s;
+    color: #3f0d01;
+    transition-duration: 0.5s;
 }
 
 
 /* OFF CANVAS ELEMENTS */
 
 .banner {
-	position: fixed;
-	margin-left: 5.4vw;
-	margin-right: 4vw;
-	padding-top: 7.8vh;
-	padding-bottom: 7.8vh;
-	overflow: hidden;
-	overflow-y: scroll;
-	height: 100vh;
-	z-index: auto;
-	width: 35vw;
+    position: fixed;
+    margin-left: 5.4vw;
+    margin-right: 4vw;
+    padding-top: 7.8vh;
+    padding-bottom: 7.8vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    z-index: auto;
+    width: 35vw;
 }
 
-.banner.banner-left{
+.banner.banner-left {
     padding-right: 1.5vw;
 }
 
 #banner-text-left {
-	position: fixed;
-	text-align: center;
-	color: black;
-	top: 0;
-	left: 40vw;
-	width: 10vw;
-	height: 100vh;
-	z-index: 103;
-	cursor: pointer;
+    position: fixed;
+    text-align: center;
+    color: black;
+    top: 0;
+    left: 40vw;
+    width: 10vw;
+    height: 100vh;
+    z-index: 103;
+    cursor: pointer;
 }
 
 #ourapproach {
-	background-image: url('img/marazago_approach.svg');
-	height: 100vh;
-	width: 2vw;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin-left: 3.9vw;
+    background-image: url('/img/marazago_approach.svg');
+    height: 100vh;
+    width: 2vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 3.9vw;
 }
 
 
 /* left */
-.foo{
-z-index:110 !important;
+
+.foo {
+    z-index: 110 !important;
 }
 
 nav#offcanvas-menuleft {
-	/* Full screen nav menu */
-	width: 50vw;
-	height: 100vh;
-	/* this is for browsers that don't support CSS3 translate3d */
-	-moz-transform: translate3d(-40vw, 0, 0);
-	-webkit-transform: translate3d(-40vw, 0, 0);
-	transform: translate3d(-40vw, 0, 0);
+    /* Full screen nav menu */
+    width: 50vw;
+    height: 100vh;
+    /* this is for browsers that don't support CSS3 translate3d */
+    -moz-transform: translate3d(-40vw, 0, 0);
+    -webkit-transform: translate3d(-40vw, 0, 0);
+    transform: translate3d(-40vw, 0, 0);
 }
 
 input[type="checkbox"]#toggleboxleft:checked~div#banner-left {
-	-moz-transform: translate3d(0, 50vw, 0);
-	-webkit-transform: translate3d(0, 50vw, 0);
-	transform: translate3d(0, 50vw, 0);
+    -moz-transform: translate3d(0, 50vw, 0);
+    -webkit-transform: translate3d(0, 50vw, 0);
+    transform: translate3d(0, 50vw, 0);
 }
 
 nav#offcanvas-menuleft {
-	left: 0vw;
+    left: 0vw;
 }
 
 
 /*SIDEBAR LEFT*/
 
 input[type="checkbox"]#toggleboxleft {
-	/* checkbox used to toggle menu state */
-	position: absolute;
-	left: 0;
-	top: 0;
-	visibility: hidden;
+    /* checkbox used to toggle menu state */
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
 }
 
 nav#offcanvas-menuleft label#closex {
-	/* Large x close button inside nav */
-	width: auto;
-	height: auto;
-	overflow: hidden;
-	display: block;
-	position: absolute;
-	cursor: pointer;
-	text-indent: -10000px;
-	line-height: 1.1;
-	z-index: 10;
-	top: 0;
-	right: 0;
+    /* Large x close button inside nav */
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    text-indent: -10000px;
+    line-height: 1.1;
+    z-index: 10;
+    top: 0;
+    right: 0;
 }
 
 input[type="checkbox"]#toggleboxleft:checked~nav#offcanvas-menuleft {
-	/* nav state when corresponding checkbox is checked */
-	-moz-transform: translate3d(0, 0, 0);
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	visibility: visible;
-	/* this is for browsers that don't support CSS3 translate3d in showing the menu */
-	-moz-transition-delay: 0s;
-	/* No delay for applying "visibility:visible" property when menu is going from "closed" to "open" */
-	-webkit-transition-delay: 0s;
-	transition-delay: 0s;
+    /* nav state when corresponding checkbox is checked */
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+    /* this is for browsers that don't support CSS3 translate3d in showing the menu */
+    -moz-transition-delay: 0s;
+    /* No delay for applying "visibility:visible" property when menu is going from "closed" to "open" */
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
 }
 
 nav#offcanvas-menuleft {
-	top: 0;
-	z-index: 104;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background: #f9ebed;
-	display: block;
-	position: fixed;
-	color: #000;
-	overflow: auto;
-	-moz-transition: -moz-transform 0.5s, visibility 0s 0.5s;
-	/* transition settings */
-	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
-	transition: transform 0.5s, visibility 0s 0.5s;
+    top: 0;
+    z-index: 104;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f9ebed;
+    display: block;
+    position: fixed;
+    color: #000;
+    overflow: auto;
+    -moz-transition: -moz-transform 0.5s, visibility 0s 0.5s;
+    /* transition settings */
+    -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+    transition: transform 0.5s, visibility 0s 0.5s;
 }
 
 
 /* OFF CANVAS RIGHT */
 
 .banner.banner-right {
-	margin-left: 10vw;
-	width: 38.6vw;
+    margin-left: 10vw;
+    width: 38.6vw;
     padding-right: 4vw;
 }
 
 #banner-text-right {
-	position: fixed;
-	text-align: center;
-	color: black;
-	top: 0;
-	right: 40vw;
-	width: 10vw;
-	height: 100vh;
-	z-index: 103;
-	cursor: pointer;
+    position: fixed;
+    text-align: center;
+    color: black;
+    top: 0;
+    right: 40vw;
+    width: 10vw;
+    height: 100vh;
+    z-index: 103;
+    cursor: pointer;
 }
 
 #why-us {
-	background-image: url('img/marazago_whyus.svg');
-	height: 100vh;
-	width: 2vw;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin-left: 3.9vw;
+    background-image: url('/img/marazago_whyus.svg');
+    height: 100vh;
+    width: 2vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 3.9vw;
 }
 
 nav#offcanvas-menuright {
-	/* Full screen nav menu */
-	width: 50vw;
-	height: 100vh;
-	/* this is for browsers that don't support CSS3 translate3d */
-	-moz-transform: translate3d(40vw, 0, 0);
-	-webkit-transform: translate3d(40vw, 0, 0);
-	transform: translate3d(40vw, 0, 0);
+    /* Full screen nav menu */
+    width: 50vw;
+    height: 100vh;
+    /* this is for browsers that don't support CSS3 translate3d */
+    -moz-transform: translate3d(40vw, 0, 0);
+    -webkit-transform: translate3d(40vw, 0, 0);
+    transform: translate3d(40vw, 0, 0);
 }
 
 input[type="checkbox"]#toggleboxright:checked~div#banner-right {
-	-moz-transform: translate3d(0, 50vw, 0);
-	-webkit-transform: translate3d(0, 50vw, 0);
-	transform: translate3d(0, 50vw, 0);
+    -moz-transform: translate3d(0, 50vw, 0);
+    -webkit-transform: translate3d(0, 50vw, 0);
+    transform: translate3d(0, 50vw, 0);
 }
 
 nav#offcanvas-menuright {
-	right: 0vw;
+    right: 0vw;
 }
 
 
 /*SIDEBAR right*/
+
 input[type="checkbox"]#toggleboxright {
-	/* checkbox used to toggle menu state */
-	position: absolute;
-	right: 0;
-	top: 0;
-	visibility: hidden;
+    /* checkbox used to toggle menu state */
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
 }
 
 nav#offcanvas-menuright label#closex {
-	/* Large x close button inside nav */
-	width: auto;
-	height: auto;
-	overflow: hidden;
-	display: block;
-	position: absolute;
-	cursor: pointer;
-	text-indent: -10000px;
-	line-height: 1.1;
-	z-index: 10;
-	top: 0;
-	left: 0;
+    /* Large x close button inside nav */
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    text-indent: -10000px;
+    line-height: 1.1;
+    z-index: 10;
+    top: 0;
+    left: 0;
 }
 
 input[type="checkbox"]#toggleboxright:checked~nav#offcanvas-menuright {
-	/* nav state when corresponding checkbox is checked */
-	-moz-transform: translate3d(0, 0, 0);
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	visibility: visible;
-	/* this is for browsers that don't support CSS3 translate3d in showing the menu */
-	-moz-transition-delay: 0s;
-	/* No delay for applying "visibility:visible" property when menu is going from "closed" to "open" */
-	-webkit-transition-delay: 0s;
-	transition-delay: 0s;
+    /* nav state when corresponding checkbox is checked */
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+    /* this is for browsers that don't support CSS3 translate3d in showing the menu */
+    -moz-transition-delay: 0s;
+    /* No delay for applying "visibility:visible" property when menu is going from "closed" to "open" */
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
 }
 
 nav#offcanvas-menuright {
-	top: 0;
-	z-index: 104;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background: #f7f3f3;
-	;
-	display: block;
-	position: fixed;
-	color: #000;
-	overflow: auto;
-	-moz-transition: -moz-transform 0.5s, visibility 0s 0.5s;
-	/* transition settings */
-	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
-	transition: transform 0.5s, visibility 0s 0.5s;
+    top: 0;
+    z-index: 104;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f7f3f3;
+    ;
+    display: block;
+    position: fixed;
+    color: #000;
+    overflow: auto;
+    -moz-transition: -moz-transform 0.5s, visibility 0s 0.5s;
+    /* transition settings */
+    -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+    transition: transform 0.5s, visibility 0s 0.5s;
 }
 
 
 /* CONTACT PAGE */
 
 .back {
-	position: absolute;
-	top: 2em;
-	right: 2em;
-	z-index: 100;
-	color: #222;
-	text-decoration: none;
-	transition: color .3s;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    z-index: 100;
+    color: #222;
+    text-decoration: none;
+    transition: color .3s;
 }
 
 .back:hover {
-	color: #aaa;
+    color: #aaa;
 }
 
 .overlay-trigger button {
     font-family: 'domaine';
-	border: none;
-	padding-top: 1.35vw;
+    border: none;
+    padding-top: 1.35vw;
     padding-bottom: 1.35vw;
-    width:16vw;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 2vw;
-	cursor: pointer;
-	border-radius: 0.3vw;
-	transition-duration: 0.5s;
-	margin-left: 42vw;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
-	background-color: #ebb6ad;
-	color: #f7f3f3;
+    width: 16vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    cursor: pointer;
+    border-radius: 0.3vw;
+    transition-duration: 0.5s;
+    margin-left: 42vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: #ebb6ad;
+    color: #f7f3f3;
 }
 
 .overlay-trigger button:hover {
-	background-color: #f7f3f3;
-	color: #ebb6ad;
+    background-color: #f7f3f3;
+    color: #ebb6ad;
 }
 
 .overlay-close {
-	position: fixed;
-	top: 4vw;
-	right: 4vw;
-	z-index: 610;
-	height: 4vw;
-	width: 4vw;
-	background-image: url('img/marazago_close.svg');
-	background-repeat: no-repeat;
-	background-position: center;
-	border: 1px solid transparent;
-	background-color: transparent;
-	cursor: pointer;
-	opacity: 0;
-	visibility: hidden;
-	transition: .2s ease-in-out;
+    position: fixed;
+    top: 4vw;
+    right: 4vw;
+    z-index: 610;
+    height: 4vw;
+    width: 4vw;
+    background-image: url('/img/marazago_close.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease-in-out;
 }
 
 .overlay-close.is-open {
-	opacity: 1;
-	visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .overlay01 {
-	position: fixed;
-	top: 0vw;
-	left: 0;
-	z-index: 600;
-	width: 100vw;
-	height: 100vh;
-	background: rgba(211, 180, 170, .9);
-	opacity: 0;
-	visibility: hidden;
-	transition: .3s linear;
-	color: white;
+    position: fixed;
+    top: 0vw;
+    left: 0;
+    z-index: 600;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(211, 180, 170, .9);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s linear;
+    color: white;
 }
 
 .overlay01.is-open {
-	opacity: 1;
-	visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 
 /* Contact page information */
 
 .contact-photo {
-	width: 17vw;
-	height: 17vw;
-	margin-left: 41.5vw;
-	background:url('img/mz-portrait.png');
+    width: 17vw;
+    height: 17vw;
+    margin-left: 41.5vw;
+    background: url('/img/mz-portrait.png');
     background-repeat: round;
     background-position: initial;
-	border-radius: 100%;
-	margin-top: 4vw;
+    border-radius: 100%;
+    margin-top: 4vw;
 }
 
 .contact-text {
-	width: 50vw;
-	margin-left: 25vw;
-	text-align: center;
-	color: #3f0d01;
-	margin-bottom: 0vw;
-	margin-top: 8vh;
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+    color: #3f0d01;
+    margin-bottom: 0vw;
+    margin-top: 8vh;
     line-height: 1.4;
 }
 
 .contact-phone {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	color: #f7f3f3;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #f7f3f3;
     font-family: 'domaine';
     font-size: 2vw;
     margin-top: 7vh;
 }
+
 .contact-phone:hover {
-	opacity: 0.5;
+    opacity: 0.5;
     transition-duration: 0.2s;
 }
+
 .contact-email {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	color: #f7f3f3;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #f7f3f3;
     font-family: 'domaine';
     font-size: 2vw;
     margin-top: 5vw;
 }
+
 .contact-email:hover {
-	opacity: 0.5;
+    opacity: 0.5;
     transition-duration: 0.2s;
 }
-.contact-socialmedia {
-	position: absolute;
-	width: 17vw;
-	bottom: 0;
-	margin-left: 41.5vw;
-	margin-bottom: 4vw;
-	height: 2.5vw;
-}
 
+.contact-socialmedia {
+    position: absolute;
+    width: 17vw;
+    bottom: 0;
+    margin-left: 41.5vw;
+    margin-bottom: 4vw;
+    height: 2.5vw;
+}
 
 #contact-pinterest {
-	display: inline-block;
-	width: 2.5vw;
-	height: 2.5vw;
-	bottom: 0;
-	background-image: url('img/marazago-pinterest.svg');
-	background-repeat: no-repeat;
-	background-position: center;
-	float: left;
+    display: inline-block;
+    width: 2.5vw;
+    height: 2.5vw;
+    bottom: 0;
+    background-image: url('/img/marazago-pinterest.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
 }
+
 #contact-pinterest:hover {
-	opacity: 0.5;
+    opacity: 0.5;
     transition-duration: 0.2s;
 }
 
 #contact-facebook {
-	display: inline-block;
-	width: 2.5vw;
-	height: 2.5vw;
-	bottom: 0;
-	background-image: url('img/marazago-fb.svg');
-	background-repeat: no-repeat;
-	background-position: center;
-	float: left;
-	margin-left: 4.75vw;
+    display: inline-block;
+    width: 2.5vw;
+    height: 2.5vw;
+    bottom: 0;
+    background-image: url('/img/marazago-fb.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 4.75vw;
 }
+
 #contact-facebook:hover {
-	opacity: 0.5;
+    opacity: 0.5;
     transition-duration: 0.2s;
 }
 
 #contact-instagram {
-	display: inline-block;
-	width: 2.5vw;
-	height: 2.5vw;
-	bottom: 0;
-	background-image: url('img/marazago-insta.svg');
-	background-repeat: no-repeat;
-	background-position: center;
-	float: right;
+    display: inline-block;
+    width: 2.5vw;
+    height: 2.5vw;
+    bottom: 0;
+    background-image: url('/img/marazago-insta.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
 }
+
 #contact-instagram:hover {
-	opacity: 0.5;
+    opacity: 0.5;
     transition-duration: 0.2s;
 }
+
 
 /* phone website */
+
 @media(max-width: 600px) {
-.marazagologo {
-	background: url('img/marazago_logomob.svg') no-repeat top center;
-	height: 40vw;
-	width: 70vw;
-	margin-left: 15vw;
-}
-
-#moreinfo{
-    width: 10vw;
-	height: 10vw;
-    margin-top: 7vw;
-    margin-left: 45vw;
-	background-image: url('img/marazargo-arrow-down.svg');
-}
-
-#moreinfo:before{
-    position:absolute;
-    content:'';
-    top:-5vh;
-    right:-5vh;
-    left:-5vh;
-    bottom:-5vh;
-    z-index:40;
-}
-
-.splash a{
-    margin-top: 3vh;
-    margin-bottom: 0;
-    font-size: 3.7vw;
-}
-    
- .splash-mail, .splash-call {
-    width: 100vw;
-    padding-bottom: 3vw;
-    padding-top: 3vw;
-    font-family: 'akkurat';
-    text-decoration: none;
-    bottom:0;
-    text-align: center;
-    font-size: 3.7vw;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    display: inline-block;
-    background-color: #d4b4a9;
-    color: #3f0d01;
-    position: absolute;
-    z-index: 50;
-}
-.splash-call {
-    left:0;
-}
-.splash-mail {
-    right: 0;
-    top: 0;
-    bottom: auto;
-}
-    
- .splash-mail:hover {
-    background-color: #3f0d01;
-    color: #d4b4a9;
-}
-.splash-call:hover {
-    background-color: #3f0d01;
-    color: #d4b4a9;
-}
-    
-a {
-    margin-bottom: 3.7vw;
-    font-size: 4vw;
-}  
-    
-/* MAIN PAGE */
-
-h1{
-    font-family: 'akkurat';
-    font-size: 6.5vw;
-    margin-bottom: 0.5vw;
-}
-
-#mainlogo.marazagologo {
-	margin-top: 8.5vh;
-    background: url('img/marazago_logomob_z.svg') no-repeat top center;
-	width: 44vw;
-    margin-left: 28vw;
-    height: 18vw;
-    margin-bottom: 13vh;
-}
-
-.main-text {
-	width: 50vw;
-	margin-left: 25vw;
-	text-align: center;
-    line-height: 1.4;
-    font-size: 4vw;
-}
-
-.socialmedia {
-	display: none;
-}
-
-/* left */
-.foo{
-z-index:110 !important;
-}
-    
-.banner {
-	position: fixed;
-	margin-left: 8.5vw;
-	margin-right: 4vw;
-	padding-top: 8.5vw;
-	padding-bottom: 8.5vw;
-	overflow: hidden;
-	overflow-y: scroll;
-	height: 100vh;
-	z-index: auto;
-	width: 75vw;
-}
-
-.banner.banner-left{
-    padding-right: 3.5vw;
-}
-
-#banner-text-left {
-	position: fixed;
-	text-align: center;
-	color: black;
-	top: 0;
-	left: 80vw;
-	width: 20vw;
-	height: 100vh;
-	z-index: 103;
-	cursor: pointer;
-}
-
-#ourapproach {
-    background-image: url('img/marazago_approach.svg');
-    width: 6.5vw;
-    margin-left: 6.8vw;
-}
-    
-nav#offcanvas-menuleft {
-	/* Full screen nav menu */
-	width: 100vw;
-	height: 100vh;
-	/* this is for browsers that don't support CSS3 translate3d */
-	-moz-transform: translate3d(-80vw, 0, 0);
-	-webkit-transform: translate3d(-80vw, 0, 0);
-	transform: translate3d(-80vw, 0, 0);
-}
-
-input[type="checkbox"]#toggleboxleft:checked~div#banner-left {
-	-moz-transform: translate3d(0, 100vw, 0);
-	-webkit-transform: translate3d(0, 100vw, 0);
-	transform: translate3d(0, 100vw, 0);
-}  
-
-/* OFF CANVAS RIGHT */
-
-.banner.banner-right {
-	margin-left: 20vw;
-	width: 75vw;
-    padding-right: 4vw;
-}
-
-#banner-text-right {
-	right: 80vw;
-	width: 20vw;
-}
-
-#why-us {
-	background-image: url('img/marazago_whyus.svg');
-	height: 100vh;
-	width: 6.5vw;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin-left: 6.8vw;
-}
-
-nav#offcanvas-menuright {
-	/* Full screen nav menu */
-	width: 100vw;
-	height: 100vh;
-	/* this is for browsers that don't support CSS3 translate3d */
-	-moz-transform: translate3d(80vw, 0, 0);
-	-webkit-transform: translate3d(80vw, 0, 0);
-	transform: translate3d(80vw, 0, 0);
-}
-
-input[type="checkbox"]#toggleboxright:checked~div#banner-right {
-	-moz-transform: translate3d(0, 100vw, 0);
-	-webkit-transform: translate3d(0, 100vw, 0);
-	transform: translate3d(0, 100vw, 0);
-}
-
-nav#offcanvas-menuright {
-	right: 0vw;
-}
-    
-/* Overlay button */
-.overlay-trigger button {
-    padding-top: 2.5vw;
-    padding-bottom: 2.5vw;
-    width: 40vw;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 6vw;
-    cursor: pointer;
-    border-radius: 0.3vw;
-    transition-duration: 0.5s;
-    margin-left: 30vw;
-    margin-top: 10vh;
-    bottom: 0;
-    position: fixed;
-    margin-bottom: 8.5vh;
-}
-
-/* Contact page information */
-.overlay-close {
-	position: fixed;
-    top: 5vw;
-    right: 5vw;
-    z-index: 610;
-    height: 10vw;
-    width: 10vw;
-}
-    
-    
-.contact-photo {
-	width: 44vw;
-	height: 44vw;
-	margin-left: 28vw;
-	margin-top: 5vw;
-}
-
-.contact-text {
-	width: 90vw;
-	margin-left: 5vw;
-	text-align: center;
-	color: #3f0d01;
-	margin-bottom: 0vw;
-	margin-top: 5vh;
-    line-height: 1.4;
-    font-size: 4vw;
-}
-
-.contact-phone {
-	position: absolute;
-    font-size: 6vw;
-    margin-top: 6vh;
-}
-
-.contact-email {
-	position: absolute;
-    font-size: 6vw;
-    margin-top: -2vw;
-}
-
-.contact-socialmedia {
-    width: 90vw;
-    margin-left: 5vw;
-    margin-bottom: 5vw;
-    height: 10vw;
-}
-
-#contact-pinterest {
-    width: 10vw;
-    height: 10vw;
-}
-
-#contact-facebook {
-    width: 10vw;
-    height: 10vw;
-	margin-left: 29vw;
-}
-
-#contact-instagram {
-	width: 10vw;
-	height: 10vw;
-}  
-    
+    .marazagologo {
+        background: url('/img/marazago_logomob.svg') no-repeat top center;
+        height: 40vw;
+        width: 70vw;
+        margin-left: 15vw;
+    }
+    #moreinfo {
+        width: 10vw;
+        height: 10vw;
+        margin-top: 7vw;
+        margin-left: 45vw;
+    }
+    #moreinfo:before {
+        position: absolute;
+        content: '';
+        top: -5vh;
+        right: -5vh;
+        left: -5vh;
+        bottom: -5vh;
+        z-index: 40;
+    }
+    .splash a {
+        margin-top: 3vh;
+        margin-bottom: 0;
+        font-size: 3.7vw;
+    }
+    .splash-mail,
+    .splash-call {
+        width: 100vw;
+        padding-bottom: 3vw;
+        padding-top: 3vw;
+        font-family: 'akkurat';
+        text-decoration: none;
+        bottom: 0;
+        text-align: center;
+        font-size: 3.7vw;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        display: inline-block;
+        background-color: #d4b4a9;
+        color: #3f0d01;
+        position: absolute;
+        z-index: 50;
+    }
+    .splash-call {
+        left: 0;
+    }
+    .splash-mail {
+        right: 0;
+        top: 0;
+        bottom: auto;
+    }
+    .splash-mail:hover {
+        background-color: #3f0d01;
+        color: #d4b4a9;
+    }
+    .splash-call:hover {
+        background-color: #3f0d01;
+        color: #d4b4a9;
+    }
+    a {
+        margin-bottom: 3.7vw;
+        font-size: 4vw;
+    }
+    /* MAIN PAGE */
+    h1 {
+        font-family: 'akkurat';
+        font-size: 6.5vw;
+        margin-bottom: 0.5vw;
+    }
+    #mainlogo.marazagologo {
+        margin-top: 8.5vh;
+        background: url('/img/marazago_logomob_z.svg') no-repeat top center;
+        width: 44vw;
+        margin-left: 28vw;
+        height: 18vw;
+        margin-bottom: 13vh;
+    }
+    .main-text {
+        width: 50vw;
+        margin-left: 25vw;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 4vw;
+    }
+    .socialmedia {
+        display: none;
+    }
+    /* left */
+    .foo {
+        z-index: 110 !important;
+    }
+    .banner {
+        position: fixed;
+        margin-left: 8.5vw;
+        margin-right: 4vw;
+        padding-top: 8.5vw;
+        padding-bottom: 8.5vw;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 100vh;
+        z-index: auto;
+        width: 75vw;
+    }
+    .banner.banner-left {
+        padding-right: 3.5vw;
+    }
+    #banner-text-left {
+        position: fixed;
+        text-align: center;
+        color: black;
+        top: 0;
+        left: 80vw;
+        width: 20vw;
+        height: 100vh;
+        z-index: 103;
+        cursor: pointer;
+    }
+    #ourapproach {
+        width: 6.5vw;
+        margin-left: 6.8vw;
+    }
+    nav#offcanvas-menuleft {
+        /* Full screen nav menu */
+        width: 100vw;
+        height: 100vh;
+        /* this is for browsers that don't support CSS3 translate3d */
+        -moz-transform: translate3d(-80vw, 0, 0);
+        -webkit-transform: translate3d(-80vw, 0, 0);
+        transform: translate3d(-80vw, 0, 0);
+    }
+    input[type="checkbox"]#toggleboxleft:checked~div#banner-left {
+        -moz-transform: translate3d(0, 100vw, 0);
+        -webkit-transform: translate3d(0, 100vw, 0);
+        transform: translate3d(0, 100vw, 0);
+    }
+    /* OFF CANVAS RIGHT */
+    .banner.banner-right {
+        margin-left: 20vw;
+        width: 75vw;
+        padding-right: 4vw;
+    }
+    #banner-text-right {
+        right: 80vw;
+        width: 20vw;
+    }
+    #why-us {
+        height: 100vh;
+        width: 6.5vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 6.8vw;
+    }
+    nav#offcanvas-menuright {
+        /* Full screen nav menu */
+        width: 100vw;
+        height: 100vh;
+        /* this is for browsers that don't support CSS3 translate3d */
+        -moz-transform: translate3d(80vw, 0, 0);
+        -webkit-transform: translate3d(80vw, 0, 0);
+        transform: translate3d(80vw, 0, 0);
+    }
+    input[type="checkbox"]#toggleboxright:checked~div#banner-right {
+        -moz-transform: translate3d(0, 100vw, 0);
+        -webkit-transform: translate3d(0, 100vw, 0);
+        transform: translate3d(0, 100vw, 0);
+    }
+    nav#offcanvas-menuright {
+        right: 0vw;
+    }
+    /* Overlay button */
+    .overlay-trigger button {
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+        width: 40vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 6vw;
+        cursor: pointer;
+        border-radius: 0.3vw;
+        transition-duration: 0.5s;
+        margin-left: 30vw;
+        margin-top: 10vh;
+        bottom: 0;
+        position: fixed;
+        margin-bottom: 8.5vh;
+    }
+    /* Contact page information */
+    .overlay-close {
+        position: fixed;
+        top: 5vw;
+        right: 5vw;
+        z-index: 610;
+        height: 10vw;
+        width: 10vw;
+    }
+    .contact-photo {
+        width: 44vw;
+        height: 44vw;
+        margin-left: 28vw;
+        margin-top: 5vw;
+    }
+    .contact-text {
+        width: 90vw;
+        margin-left: 5vw;
+        text-align: center;
+        color: #3f0d01;
+        margin-bottom: 0vw;
+        margin-top: 5vh;
+        line-height: 1.4;
+        font-size: 4vw;
+    }
+    .contact-phone {
+        position: absolute;
+        font-size: 6vw;
+        margin-top: 6vh;
+    }
+    .contact-email {
+        position: absolute;
+        font-size: 6vw;
+        margin-top: -2vw;
+    }
+    .contact-socialmedia {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+        height: 10vw;
+    }
+    #contact-pinterest {
+        width: 10vw;
+        height: 10vw;
+    }
+    #contact-facebook {
+        width: 10vw;
+        height: 10vw;
+        margin-left: 29vw;
+    }
+    #contact-instagram {
+        width: 10vw;
+        height: 10vw;
+    }
 }
