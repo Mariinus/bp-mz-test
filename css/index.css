@@ -866,6 +866,9 @@ nav#offcanvas-menuright {
 /* phone website */
 
 @media(max-width: 600px) {
+    .content__inner{
+        overflow:hidden;
+    }
     .marazagologo {
         background: url('https://mariinus.github.io/bp-mz-test/img/marazago_logomob.svg') no-repeat top center;
         height: 40vw;
