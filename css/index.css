@@ -738,7 +738,7 @@ nav#offcanvas-menuright {
     z-index: 600;
     width: 100vw;
     height: 100vh;
-    background: rgba(211, 180, 170, .9);
+    background: rgba(211, 180, 170, 1);
     opacity: 0;
     visibility: hidden;
     transition: .3s linear;
