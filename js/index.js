@@ -19,15 +19,7 @@ $(function(){
     // Set the SVG transform origin.
     DOM.shape.style.transformOrigin = '50% 0%';
 
-    const init = () => {
-        // imagesLoaded(document.body, {
-        //    background: true
-        // }, () => document.body.classList.remove('loading'));
-        DOM.enter.addEventListener('click', navigate);
-        DOM.enter.addEventListener('touchenter', navigate);
-        DOM.enter.addEventListener('mouseenter', enterHoverInFn);
-        DOM.enter.addEventListener('mouseleave', enterHoverOutFn);
-    };
+
 
     let loaded;
     const navigate = () => {
