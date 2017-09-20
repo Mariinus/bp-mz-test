@@ -6,16 +6,16 @@
 
 @font-face {
     font-family: 'akkurat';
-    src: url('/css/fonts/AkkuratPro-Light.eot');
-    src: url('/css/fonts/AkkuratPro-Light.eot?#iefix') format('embedded-opentype'), url('/css/fonts/AkkuratPro-Light.woff2') format('woff2'), url('/css/fonts/AkkuratPro-Light.woff') format('woff'), url('/css/fonts/AkkuratPro-Light.ttf') format('truetype'), url('/css/fonts/AkkuratPro-Light.svg#AkkuratPro-Light') format('svg');
+    src: url('css/fonts/AkkuratPro-Light.eot');
+    src: url('css/fonts/AkkuratPro-Light.eot?#iefix') format('embedded-opentype'), url('css/fonts/AkkuratPro-Light.woff2') format('woff2'), url('css/fonts/AkkuratPro-Light.woff') format('woff'), url('css/fonts/AkkuratPro-Light.ttf') format('truetype'), url('css/fonts/AkkuratPro-Light.svg#AkkuratPro-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'domaine';
-    src: url('/css/fonts/DomaineDispBlack.eot');
-    src: url('/css/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), url('/css/fonts/DomaineDispBlack.woff2') format('woff2'), url('/css/fonts/DomaineDispBlack.woff') format('woff'), url('/css/fonts/DomaineDispBlack.ttf') format('truetype'), url('/css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
+    src: url('css/fonts/DomaineDispBlack.eot');
+    src: url('css/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), url('css/fonts/DomaineDispBlack.woff2') format('woff2'), url('css/fonts/DomaineDispBlack.woff') format('woff'), url('css/fonts/DomaineDispBlack.ttf') format('truetype'), url('css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
     font-weight: 900;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ button:focus {
 }
 
 .marazagologo {
-    background: url('/img/marazago_logo.svg') no-repeat top center;
+    background: url('img/marazago_logo.svg') no-repeat top center;
     background-size: contain;
     cursor: pointer;
     height: 16vw;
@@ -135,7 +135,7 @@ button:focus {
     margin-left: 48vw;
     bottom: 0;
     transition-duration: 0.5s;
-    background-image: url('/img/marazargo-arrow-down.svg');
+    background-image: url('img/marazargo-arrow-down.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
