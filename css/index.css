@@ -1055,6 +1055,10 @@ nav#offcanvas-menuright {
         margin-bottom: 8.5vh;
     }
     /* Contact page information */
+    .overlay01 {
+    background: #d4b4a9;
+}
+    
     .overlay-close {
         position: fixed;
         top: 5vw;
