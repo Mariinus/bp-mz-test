@@ -8,8 +8,6 @@ $(function(){
   });
 });
 
-
-
 {
     const DOM = {};
     DOM.intro = document.querySelector('.content--intro');
