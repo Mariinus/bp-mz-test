@@ -8,17 +8,7 @@ $(function(){
   });
 });
 
-import * as viewportUnitsBuggyfill from 'viewport-units-buggyfill';
 
-// …
-
-// Initialize viewportUnitsBuggyfill
-viewportUnitsBuggyfill.init();
-
-// Also hook viewportUnitsBuggyfill to resize event (if it was initialized)
-if (document.getElementById('patched-viewport')) {
-    window.addEventListener('resize', viewportUnitsBuggyfill.refresh, true);
-}
 
 {
     const DOM = {};
