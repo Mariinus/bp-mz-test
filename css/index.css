@@ -15,9 +15,7 @@
 @font-face {
     font-family: 'domaine';
     src: url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.eot');
-    src: url('https://mariinus.github.io/bp-mz-test/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), 
-    url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.woff2') format('woff2'), 
-    url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.woff') format('woff'), url('/bp-mz-test/css/fonts/DomaineDispBlack.ttf') format('truetype'), url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
+    src: url('https://mariinus.github.io/bp-mz-test/fonts/DomaineDispBlack.eot?#iefix') format('embedded-opentype'), url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.woff2') format('woff2'), url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.woff') format('woff'), url('/bp-mz-test/css/fonts/DomaineDispBlack.ttf') format('truetype'), url('https://mariinus.github.io/bp-mz-test/css/fonts/DomaineDispBlack.svg#DomaineDispBlack') format('svg');
     font-weight: 900;
     font-style: normal;
 }
@@ -80,7 +78,7 @@ button:focus {
     z-index: 50;
 }
 
-.splash-mail a{
+.splash-mail a {
     margin-bottom: 0;
     display: block;
     padding-bottom: 1vw;
@@ -88,7 +86,8 @@ button:focus {
     color: #3f0d01;
     transition-duration: 0.5s;
 }
-.splash-call a{
+
+.splash-call a {
     margin-bottom: 0;
     display: block;
     padding-bottom: 1vw;
@@ -109,6 +108,7 @@ button:focus {
     background-color: #3f0d01;
     color: #d4b4a9;
 }
+
 .splash-mail a:hover {
     color: #d4b4a9;
 }
@@ -117,6 +117,7 @@ button:focus {
     background-color: #3f0d01;
     color: #d4b4a9;
 }
+
 .splash-call a:hover {
     color: #d4b4a9;
 }
@@ -795,12 +796,12 @@ nav#offcanvas-menuright {
     line-height: 1.4;
 }
 
-h3{
+h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-h3 a{
+h3 a {
     color: #f7f3f3;
     font-family: 'domaine';
     font-size: 2.3vw;
@@ -880,8 +881,8 @@ h3 a:hover {
 /* phone website */
 
 @media(max-width: 600px) {
-    .content__inner{
-        overflow:hidden;
+    .content__inner {
+        overflow: hidden;
     }
     .marazagologo {
         background: url('https://mariinus.github.io/bp-mz-test/img/marazago_logomob.svg') no-repeat top center;
@@ -1058,7 +1059,7 @@ h3 a:hover {
     .overlay-trigger button {
         padding-top: 2.5vw;
         padding-bottom: 2.5vw;
-        width: 40vw;
+        width: 50vw;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -1066,7 +1067,7 @@ h3 a:hover {
         cursor: pointer;
         border-radius: 0.3vw;
         transition-duration: 0.5s;
-        margin-left: 30vw;
+        margin-left: 25vw;
         margin-top: 10vh;
         bottom: 0;
         position: fixed;
@@ -1074,9 +1075,8 @@ h3 a:hover {
     }
     /* Contact page information */
     .overlay01 {
-    background: #d4b4a9;
-}
-    
+        background: #d4b4a9;
+    }
     .overlay-close {
         position: fixed;
         top: 5vw;
@@ -1101,20 +1101,17 @@ h3 a:hover {
         line-height: 1.4;
         font-size: 3.4vw;
     }
-    
-    h3{
+    h3 {
         font-size: 0vw;
         line-height: 1;
     }
-    
-    h3 a{
+    h3 a {
         font-size: 6vw;
     }
-    
     .contact-socialmedia {
         width: 90vw;
         margin-left: 5vw;
-        margin-bottom: 5vw;
+        margin-bottom: 10vw;
         height: 10vw;
     }
     #contact-pinterest {
