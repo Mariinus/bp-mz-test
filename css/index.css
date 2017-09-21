@@ -880,9 +880,6 @@ h3 a:hover {
 /* phone website */
 
 @media(max-width: 600px) {
-    html,body{
-    -webkit-overflow-scrolling: touch;
-}
     .content__inner{
         overflow:hidden;
     }
@@ -927,16 +924,17 @@ h3 a:hover {
         display: inline-block;
         background-color: #d4b4a9;
         color: #3f0d01;
-        position: absolute;
         z-index: 50;
     }
     .splash-call {
         left: 0;
+        position: fixed;
     }
     .splash-mail {
         right: 0;
         top: 0;
         bottom: auto;
+        position: fixed;
     }
     .splash-mail:hover {
         background-color: #3f0d01;
