@@ -66,8 +66,6 @@ button:focus {
 .splash-mail,
 .splash-call {
     width: 50vw;
-    padding-bottom: 1vw;
-    padding-top: 1vw;
     font-family: 'akkurat';
     text-decoration: none;
     bottom: 0;
@@ -80,6 +78,19 @@ button:focus {
     color: #3f0d01;
     position: absolute;
     z-index: 50;
+}
+
+.splash-mail a{
+    margin-bottom: 0;
+    display: block;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+.splash-call a{
+    margin-bottom: 0;
+    display: block;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
 }
 
 .splash-call {
@@ -393,7 +404,7 @@ ul {
     height: 4vh;
     position: fixed;
     left: 25vw;
-    bottom: 3.1vw;
+    bottom: 0.5vw;
     color: #9a7a6f;
     font-size: 1.43vw;
 }
@@ -774,32 +785,21 @@ nav#offcanvas-menuright {
     line-height: 1.4;
 }
 
-.contact-phone {
-    position: absolute;
-    width: 100%;
-    text-align: center;
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 a{
     color: #f7f3f3;
     font-family: 'domaine';
-    font-size: 2vw;
-    margin-top: 7vh;
+    font-size: 3vw;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+    cursor: pointer;
 }
 
-.contact-phone:hover {
-    opacity: 0.5;
-    transition-duration: 0.2s;
-}
-
-.contact-email {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: #f7f3f3;
-    font-family: 'domaine';
-    font-size: 2vw;
-    margin-top: 5vw;
-}
-
-.contact-email:hover {
+h3 a:hover {
     opacity: 0.5;
     transition-duration: 0.2s;
 }
@@ -809,8 +809,8 @@ nav#offcanvas-menuright {
     width: 17vw;
     bottom: 0;
     margin-left: 41.5vw;
-    margin-bottom: 4vw;
-    height: 2.5vw;
+    margin-bottom: 1.5vw;
+    height: auto;
 }
 
 #contact-pinterest {
@@ -822,6 +822,7 @@ nav#offcanvas-menuright {
     background-repeat: no-repeat;
     background-position: center;
     float: left;
+    border-radius: 100%;
 }
 
 #contact-pinterest:hover {
@@ -839,6 +840,7 @@ nav#offcanvas-menuright {
     background-position: center;
     float: left;
     margin-left: 4.75vw;
+    border-radius: 100%;
 }
 
 #contact-facebook:hover {
@@ -855,6 +857,7 @@ nav#offcanvas-menuright {
     background-repeat: no-repeat;
     background-position: center;
     float: right;
+    border-radius: 100%;
 }
 
 #contact-instagram:hover {
@@ -1086,16 +1089,11 @@ nav#offcanvas-menuright {
         line-height: 1.4;
         font-size: 4vw;
     }
-    .contact-phone {
-        position: absolute;
+    
+    h3{
         font-size: 6vw;
-        margin-top: 6vh;
     }
-    .contact-email {
-        position: absolute;
-        font-size: 6vw;
-        margin-top: -2vw;
-    }
+    
     .contact-socialmedia {
         width: 90vw;
         margin-left: 5vw;
