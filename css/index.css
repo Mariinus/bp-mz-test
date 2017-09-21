@@ -749,7 +749,7 @@ nav#offcanvas-menuright {
     z-index: 600;
     width: 100vw;
     height: 100vh;
-    background: rgba(211, 180, 170, 1);
+    background: rgba(211, 180, 170, 0.9);
     opacity: 0;
     visibility: hidden;
     transition: .3s linear;
@@ -815,8 +815,8 @@ h3 a:hover {
 
 #contact-pinterest {
     display: inline-block;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 4vw;
+    height: 4vw;
     bottom: 0;
     background-image: url('https://mariinus.github.io/bp-mz-test/img/marazago-pinterest.svg');
     background-repeat: no-repeat;
@@ -832,8 +832,8 @@ h3 a:hover {
 
 #contact-facebook {
     display: inline-block;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 4vw;
+    height: 4vw;
     bottom: 0;
     background-image: url('https://mariinus.github.io/bp-mz-test/img/marazago-fb.svg');
     background-repeat: no-repeat;
@@ -850,8 +850,8 @@ h3 a:hover {
 
 #contact-instagram {
     display: inline-block;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 4vw;
+    height: 4vw;
     bottom: 0;
     background-image: url('https://mariinus.github.io/bp-mz-test/img/marazago-insta.svg');
     background-repeat: no-repeat;
