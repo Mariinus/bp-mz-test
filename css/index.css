@@ -912,7 +912,7 @@ h3 a:hover {
     }
     .splash-mail,
     .splash-call {
-        width: 100vw;
+        width: 50vw;
         padding-bottom: 3vw;
         padding-top: 3vw;
         font-family: 'akkurat';
@@ -930,6 +930,8 @@ h3 a:hover {
     .splash-call {
         left: 0;
         position: absolute;
+        top: 0;
+        bottom: auto;
     }
     .splash-mail {
         right: 0;
