@@ -85,12 +85,14 @@ button:focus {
     display: block;
     padding-bottom: 1vw;
     padding-top: 1vw;
+    color: #3f0d01;
 }
 .splash-call a{
     margin-bottom: 0;
     display: block;
     padding-bottom: 1vw;
     padding-top: 1vw;
+    color: #3f0d01;
 }
 
 .splash-call {
@@ -105,9 +107,15 @@ button:focus {
     background-color: #3f0d01;
     color: #d4b4a9;
 }
+.splash-mail a:hover {
+    color: #d4b4a9;
+}
 
 .splash-call:hover {
     background-color: #3f0d01;
+    color: #d4b4a9;
+}
+.splash-call a:hover {
     color: #d4b4a9;
 }
 
