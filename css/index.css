@@ -1115,6 +1115,7 @@ h3 a:hover {
         margin-left: 5vw;
         margin-bottom: 10vw;
         height: 10vw;
+        position: fixed;
     }
     #contact-pinterest {
         width: 10vw;
