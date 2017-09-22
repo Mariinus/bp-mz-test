@@ -881,8 +881,9 @@ h3 a:hover {
 /* phone website */
 
 @media(max-width: 600px) {
-    .content__inner {
-        overflow: hidden;
+    .content--intro {
+    position: fixed;
+    overflow: hidden;
     }
     .marazagologo {
         background: url('https://mariinus.github.io/bp-mz-test/img/marazago_logomob.svg') no-repeat top center;
