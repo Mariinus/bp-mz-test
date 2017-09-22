@@ -929,7 +929,7 @@ h3 a:hover {
     }
     .splash-call {
         left: 0;
-        position: absolute;
+        position: fixed;
         top: 0;
         bottom: auto;
     }
@@ -937,7 +937,7 @@ h3 a:hover {
         right: 0;
         top: 0;
         bottom: auto;
-        position: absolute;
+        position: fixed;
     }
     .splash-mail:hover {
         background-color: #3f0d01;
