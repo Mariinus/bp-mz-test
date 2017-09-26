@@ -882,14 +882,14 @@ h3 a:hover {
 
 @media(max-width: 600px) {
     .content--intro {
-    position: fixed;
-    overflow: hidden;
+        position: fixed;
+        overflow: hidden;
     }
     .marazagologo {
         background: url('https://mariinus.github.io/bp-mz-test/img/marazago_logo.svg') no-repeat top center;
-        height: 40vw;
-        width: 70vw;
-        margin-left: 15vw;
+        height: 23.5vw;
+        width: 75vw;
+        margin-left: 12.5vw;
     }
     #moreinfo {
         width: 10vw;
@@ -930,9 +930,8 @@ h3 a:hover {
     }
     .splash-call {
         left: 0;
-        position: fixed;
+        position: absolute;
         bottom: 0;
-        
     }
     .splash-mail {
         right: 0;
@@ -961,9 +960,9 @@ h3 a:hover {
     #mainlogo.marazagologo {
         margin-top: 8.5vh;
         background: url('https://mariinus.github.io/bp-mz-test/img/marazago_logo.svg') no-repeat top center;
-        width: 44vw;
-        margin-left: 28vw;
-        height: 18vw;
+        width: 50vw;
+        margin-left: 25vw;
+        height: 16.5vw;
         margin-bottom: 13vh;
     }
     .main-text {
@@ -1132,7 +1131,10 @@ h3 a:hover {
         height: 10vw;
     }
 }
+
+
 /* IE PAGE */
+
 .main-ie-text {
     width: 80%;
     margin-left: 10%;
@@ -1140,10 +1142,12 @@ h3 a:hover {
     font-size: 1.3em;
     color: #3f0d01;
 }
-.main-ie-text a{
+
+.main-ie-text a {
     color: #9a7a6f;
 }
-.main-ie-text a:hover{
+
+.main-ie-text a:hover {
     color: #3f0d01;
     transition-duration: 0.5s;
 }
