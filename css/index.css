@@ -1157,6 +1157,23 @@ h3 a:hover {
         width: 10vw;
         height: 10vw;
     }
+    
+    /* Open Close button */
+
+#closebuttonright {
+    top: 4vw;
+    right: 4vw;
+    height: 5vw;
+    width: 5vw;
+}
+
+#closebuttonleft {
+    top: 4vw;
+    left: 4vw;
+    height: 5vw;
+    width: 5vw;
+}
+    
     /* Mobile only */
     .mobile-socialmedia {
         position: fixed;
