@@ -1019,7 +1019,9 @@ h3 a:hover {
         width: 75vw;
     }
     .banner.banner-left {
-        padding-right: 3.5vw;
+        padding-right: 5.5vw;
+        margin-left: 11.5vw;
+        width: 74vw;
     }
     #banner-text-left {
         position: fixed;
